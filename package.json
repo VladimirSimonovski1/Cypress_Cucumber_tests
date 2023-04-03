@@ -1,0 +1,22 @@
+{
+  "name": "cypress_cucumber_tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VladimirSimonovski1/Cypress_Cucumber_tests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VladimirSimonovski1/Cypress_Cucumber_tests/issues"
+  },
+  "homepage": "https://github.com/VladimirSimonovski1/Cypress_Cucumber_tests#readme",
+  "devDependencies": {
+    "cypress": "^12.9.0"
+  }
+}
