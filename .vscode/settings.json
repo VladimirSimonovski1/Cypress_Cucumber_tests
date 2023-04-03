@@ -11,9 +11,9 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
 },​​​​​​​​
 "cucumberautocomplete.steps": [
-"src/steps/*.ts",
+"cypress/e2e/*.ts",
     ],
-"cucumberautocomplete.syncfeatures": "src/tests/*feature",
+"cucumberautocomplete.syncfeatures": "cypress/e2e/*feature",
 "cucumberautocomplete.strictGherkinCompletion": true,
 "cucumberautocomplete.strictGherkinValidation": true,
 "cucumberautocomplete.smartSnippets": true,
