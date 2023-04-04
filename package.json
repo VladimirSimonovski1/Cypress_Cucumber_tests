@@ -2,13 +2,14 @@
   "name": "cypress_cucumber_tests",
   "version": "1.0.0",
   "scripts": {
-    "tests": "npx cypress run --headed",
-    "tests:headless": "npx cypress run"
+    "cypress:open": "npx cypress open",
+    "cypress:tests": "npx cypress run --headed",
+    "cypress:tests:headless": "npx cypress run"
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true,
     "stepDefinitions": [
-      "cypress/steps/*.ts"
+      "cypress/steps/*.steps.ts"
     ]
   },
   "html": {

@@ -1,9 +1,20 @@
 {
+  "compileOnSave": true,
   "compilerOptions": {
+    "outDir": "./dist/out-tsc",
+    "mapRoot": "./dist/out-tsc/",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
     "baseUrl": "./",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
     "target": "es5",
     "lib": ["es5", "dom"],
-    "types": ["cypress", "node"]
+    "types": ["cypress", "node"],
+    "typeRoots": ["node_modules/@types"],
+    "downlevelIteration": true
   },
   "include": ["**/*.ts", "cypress.config.ts"]
 }

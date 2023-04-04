@@ -1,4 +1,6 @@
-Feature: duckduckgo.com
-  Scenario: visiting the frontpage
-    When I visit duckduckgo.com
-    Then I should see a search bar
+Feature: QAMIND
+
+  Scenario: Search article by keyword
+    Given I visit qamind.com
+    When I search for "flowchart"
+    Then I see the "Flowchart in Software Testing: A Comprehensive Guide with Examples" article
