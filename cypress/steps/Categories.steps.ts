@@ -26,11 +26,8 @@ Then("I see all the {string}", (): void => {
 Then("I verify all the category names", (table: DataTable): void => {
   expect(responseBody.body).to.not.be.null;
   const expectedArray = new Array<string>();
-  table.rows().forEach((key: any) => {
-    expectedArray.push(key);
-  });
-  cy.log("VLAD: " + expectedArray);
-  for(let i in expectedArray) {
-    expect(responseBody[i].name).to.deep.eq(expectedArray[i].toString());
+  for (let i in responseBody) {
+    expectedArray.push(table.rows()[i].toString());
+    expect(responseBody[i].name).to.deep.eq(expectedArray[i]);
   }
 });
