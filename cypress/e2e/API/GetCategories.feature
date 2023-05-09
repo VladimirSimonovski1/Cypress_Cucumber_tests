@@ -4,10 +4,9 @@ Feature: QAMIND API
   I want to test the QAMIND API
   So that I can verify the quality of the application
 
-  @categories
   Scenario: Get all categories
     Given I have a "GET" request prepared
-    When I send the "GET" request
+    When I "GET" the categories
     Then I see all the "categories"
     And I verify all the category names
     | Categories    |

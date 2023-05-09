@@ -4,5 +4,5 @@ export abstract class Base {
 
     constructor(url : string) {
         this.baseUrl = url;
-    } 
+    }
 }

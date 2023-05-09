@@ -13,7 +13,7 @@ Given("I have a {string} request prepared", (): void => {
   c.prepareRequest();
 });
 
-When("I send the {string} request", (method: string): void => {
+When("I {string} the categories", (method: string): void => {
   c.getCategories(method).then((body) => {
     responseBody = body;
   });
