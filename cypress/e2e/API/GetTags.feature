@@ -1,7 +1,7 @@
-Feature: QAMIND API
+Feature: Tags
 
   As a tester
-  I want to test the QAMIND API
+  I want to test the Tags
   So that I can verify the quality of the application
 
   Scenario: Count all tags

@@ -1,7 +1,7 @@
-Feature: QAMIND API
+Feature: Categories
 
   As a tester
-  I want to test the QAMIND API
+  I want to test the Categories
   So that I can verify the quality of the application
 
   Scenario: Get all categories

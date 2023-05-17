@@ -1,6 +1,5 @@
 import { DataTable, Then, When } from "@badeball/cypress-cucumber-preprocessor";
 import { Tags } from "../page-objects/Tags";
-import { indexOf } from "cypress/types/lodash";
 
 let responseBody: any = {};
 
